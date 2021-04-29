@@ -57,3 +57,6 @@ const struct msgStruct messages[] PROGMEM = {
   . . .
   };
 ```
+
+## Further infos & links
+- If your search for further information, tips & tricks on how to rapair your Renault Scenic II dashboard - take a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
