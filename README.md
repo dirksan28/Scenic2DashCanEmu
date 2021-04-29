@@ -39,11 +39,12 @@ On the MCP2515 board there is a jumper which is labeled J1. To function properly
 |30|CAN HI|
 
 ## Software
-The arduino project is attached to this post and can be compiled and uploaded via the Arduino IDE.
+The arduino project can be compiled and uploaded via the Arduino IDE. Either clone this project or download it as a ZIP-File.
 The code which runs on the arduino is based on [ MCP_CAN_lib]([https://github.com/coryjfowler/MCP_CAN_lib](https://github.com/coryjfowler/MCP_CAN_lib)
-A copy of this library (and the full source code for the emulator) can be found within the provided zip file. Just put the can-library into the library folder of the Arduino IDE.
+For convenience a copy of this library also is part of this project. Just put the can-library into the library folder of the Arduino IDE.
 
 The Message-Sequence can be extended or modified by patching for the the following within the [canEmu.ino](./Arduino/canEmulator/canEmu.ino "link to canEmu.ino") file:
+
 ### Code
 ```c
 ...
