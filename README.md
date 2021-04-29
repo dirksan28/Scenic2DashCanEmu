@@ -39,7 +39,7 @@ On the MCP2515 board there is a jumper which is labeled J1. To function properly
 |30|CAN HI|
 
 ## Software
-The arduino project can be compiled and uploaded via the Arduino IDE. Either clone this project or download it as a ZIP-File.
+The arduino project can be compiled and uploaded via the Arduino IDE. Either clone this project or download it as a [ZIP-File](https://github.com/dirksan28/Scenic2DashCanEmu/archive/refs/heads/main.zip).
 The code which runs on the arduino is based on [ MCP_CAN_lib]([https://github.com/coryjfowler/MCP_CAN_lib](https://github.com/coryjfowler/MCP_CAN_lib)
 For convenience a copy of this library also is part of this project. Just put the can-library into the library folder of the Arduino IDE.
 
