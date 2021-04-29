@@ -1,12 +1,12 @@
 # A lowcost DIY CAN emulator for the Renault Scenic II dash
 
-[![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/512398946 "CAN-Emulator in action - Click to Watch!")
-
 ## Features
 - powers up your dashboard without the need of installation in the car
 - large test sequence with more then 100 built-in test CAN messages 
 - standalone operation (only with charging adapter) possible
 - if connected to a serial console: timestamp and message logging on screen
+
+[![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/512398946 "CAN-Emulator in action - Click to Watch!")
 
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
