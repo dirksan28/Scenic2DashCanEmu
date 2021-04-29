@@ -2,6 +2,12 @@
 
 [![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/512398946 "CAN-Emulator in action - Click to Watch!")
 
+## Features
+- powers up your dashboard without the need of installation in the car
+- large test sequence with more then 100 built-in test CAN messages 
+- standalone operation (only with charging adapter) possible
+- if connected to a serial console: timestamp and message logging on screen
+
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
 - a MCP2515 module (e.g. this one https://www.amazon.com/-/de/dp/B08HM...336095&sr=8-11)
@@ -57,6 +63,7 @@ const struct msgStruct messages[] PROGMEM = {
   . . .
   };
 ```
+To see what the code is doing. Start the serial console of the Arduino IDE with 9600 Boud.
 
 ## Further infos & links
 - If your search for further information, tips & tricks on how to rapair your Renault Scenic II dashboard - take a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
