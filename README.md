@@ -1,13 +1,17 @@
 # A lowcost DIY CAN emulator for the Scenic II dash
 
+[![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/512398946 "CAN-Emulator in action - Click to Watch!")
+
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
--     a MCP2515 module (e.g. this one https://www.amazon.com/-/de/dp/B08HM...336095&sr=8-11)
--     The Arduino IDE https://www.arduino.cc/en/software to compile and upload the sketch to the arduino. 
+- a MCP2515 module (e.g. this one https://www.amazon.com/-/de/dp/B08HM...336095&sr=8-11)
+- The Arduino IDE https://www.arduino.cc/en/software to compile and upload the sketch to the arduino. 
 
 ## Hardware
 ![](./pics/mcp2515-arduino.jpg)
+
 On the MCP2515 board there is a jumper which is labeled J1. To function properly make sure it is closed so the CAN-Bus termination is enabled.
+
 ### Wireing
 | PIN on Arduino  | PIN on MCP2515 CAN Bus Breakout Board  |
 | ------------ | ------------ |
