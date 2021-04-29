@@ -5,7 +5,8 @@
 - large test sequence with more then 100 built-in test CAN messages 
 - standalone operation (only with charging adapter) possible
 - if connected to a serial console: timestamp and message logging on screen
-
+\
+\
 [![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/512398946 "CAN-Emulator in action - Click to Watch!")
 
 ## What you need
@@ -16,7 +17,8 @@
 ## Hardware
 ![](./pics/mcp2515-arduino.jpg)
 
-On the MCP2515 board there is a jumper which is labeled J1. To function properly make sure it is closed so the CAN-Bus termination is enabled.
+On the MCP2515 board there is a jumper which is labeled J1.
+To work properly, make sure it is closed so the CAN-Bus termination is enabled.
 
 ### Wireing
 | PIN on Arduino  | PIN on MCP2515 CAN Bus Breakout Board  |
@@ -40,8 +42,8 @@ On the MCP2515 board there is a jumper which is labeled J1. To function properly
 
 ## Software
 The arduino project can be compiled and uploaded via the Arduino IDE. Either clone this project or download it as a [ZIP-File](https://github.com/dirksan28/Scenic2DashCanEmu/archive/refs/heads/main.zip).
-The code which runs on the arduino is based on [ MCP_CAN_lib]([https://github.com/coryjfowler/MCP_CAN_lib](https://github.com/coryjfowler/MCP_CAN_lib)
-For convenience a copy of this library also is part of this project. Just put the can-library into the library folder of the Arduino IDE.
+The code which runs on the arduino is based on [MCP_CAN_lib](https://github.com/coryjfowler/MCP_CAN_lib).
+For convenience a copy of this library also is part of this project. Just put the can-library into the library folder of your Arduino IDE (on linux: ~/Arduino/libraries).
 
 The Message-Sequence can be extended or modified by patching for the the following within the [canEmu.ino](./Arduino/canEmulator/canEmu.ino "link to canEmu.ino") file:
 
