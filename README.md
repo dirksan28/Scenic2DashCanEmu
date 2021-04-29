@@ -39,6 +39,7 @@ To work properly, make sure it is closed so the CAN-Bus termination is enabled.
 |2|GND|
 |29|CAN LOW|
 |30|CAN HI|
+
 Hint: The dash takes about 4A peak current (filament heating) when it starts up. Make sure your power supply and cabling is sufficient.
 
 ## Software
