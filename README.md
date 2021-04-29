@@ -41,6 +41,11 @@ The Message-Sequence can be extended or modified by patching for the the followi
 ### Code
 ```c
 ...
+/**
+ * the following stuct contains the messages which are send to the dash
+ * feel free to add or remove messages.
+ * {duration, id, dlc {byte1, byte2, ... byte_dlc}}
+**/
 const struct msgStruct messages[] PROGMEM = { 
   {20, 0x35D, 8, {0x90, 0x03, 0x00, 0x00, 0x00, 0x01, 0x50, 0x00}}
   ,{4, 0x743, 8, {0x02, 0x10, 0xC0, 0x00, 0x00, 0x00, 0x00, 0x00}}
