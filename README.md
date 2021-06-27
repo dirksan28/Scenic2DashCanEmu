@@ -11,7 +11,7 @@
 
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
-- a MCP2515 module (e.g. this one https://www.amazon.com/-/de/dp/B08HM...336095&sr=8-11)
+- a MCP2515 module (e.g. https://www.amazon.com/s?k=MCP2515)
 - The Arduino IDE https://www.arduino.cc/en/software to compile and upload the sketch to the arduino. 
 
 ## Hardware
