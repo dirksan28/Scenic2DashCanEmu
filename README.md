@@ -7,7 +7,7 @@
 - if connected to a serial console: timestamp and message logging on screen
 \
 \
-[![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/512398946 "CAN-Emulator in action - Click to Watch!")
+[![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/568058419 "CAN-Emulator in action - Click to Watch!")
 
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
