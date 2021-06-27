@@ -2,7 +2,7 @@
 
 ## Features
 - powers up your dashboard without the need of installation in the car
-- large test sequence with more then 100 built-in test CAN messages 
+- large test sequence with (see video) 
 - standalone operation (only with charging adapter) possible
 - if connected to a serial console: timestamp and message logging on screen
 \
@@ -71,8 +71,7 @@ const struct msgStruct messages[] PROGMEM = {
 To see what the code is doing. Start the serial console of the Arduino IDE with 9600 Boud.
 
 ## Current state
-The project was recently published on github and has undergone heavy development in the last few days. 
-So please don't be too strict and give the whole thing some time to settle ;-)
+The code was tested on a V5.14 dashbord and runs fine.
 
 ## Further infos & links
 - If your search for further information, tips & tricks on how to rapair your Renault Scenic II dashboard - take a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
