@@ -2,7 +2,7 @@
 
 ## Features
 - powers up your dashboard without the need of installation in the car
-- large test sequence with (see video) 
+- large test sequence. Shows saved km/milage on startup. (see video) 
 - standalone operation (only with charging adapter) possible
 - if connected to a serial console: timestamp and message logging on screen
 \
