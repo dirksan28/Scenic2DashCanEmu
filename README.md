@@ -5,7 +5,7 @@
 - large test sequence. Shows saved km/milage on startup. (see video) 
 - standalone operation (only with charging adapter) possible
 - if connected to a serial console: timestamp and message logging on screen
-- build to test your cluster after repairs
+- build to test your cluster after and during repair
 \
 \
 [![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/568058419 "CAN bus - Emulator in action - Click to Watch!")
