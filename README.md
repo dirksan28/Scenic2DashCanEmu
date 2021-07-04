@@ -1,13 +1,14 @@
-# A lowcost DIY CAN emulator for the Renault Scenic II dash
+# A lowcost DIY CAN BUS emulator for the Renault Scenic 2 dashboard
 
 ## Features
 - powers up your dashboard without the need of installation in the car
 - large test sequence. Shows saved km/milage on startup. (see video) 
 - standalone operation (only with charging adapter) possible
 - if connected to a serial console: timestamp and message logging on screen
+- build to test your cluster after repairs
 \
 \
-[![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/568058419 "CAN-Emulator in action - Click to Watch!")
+[![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/568058419 "CAN bus - Emulator in action - Click to Watch!")
 
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
@@ -18,7 +19,7 @@
 ![](./pics/mcp2515-arduino.jpg)
 
 On the MCP2515 board there is a jumper which is labeled J1.
-To work properly, make sure it is closed so the CAN-Bus termination is enabled.
+To work properly, make sure it is closed so the CAN bus termination is enabled.
 
 ### Wireing
 | PIN on Arduino  | PIN on MCP2515 CAN Bus Breakout Board  |
