@@ -85,5 +85,18 @@ To see what the code is doing. Start the serial console of the Arduino IDE at 96
 ## Current state
 The code was tested on a V5.14 dashbord and runs fine.
 
+## Design principles
+- keep it stupid simple
+- even "non-arduino experts" should be able to use and set up the project easily
+- keep dependencies as low as possible (e.g. libraries, source files, additional hardware, ...)
+- adaptable and expandable even without knowledge of C / C ++
+
+## Collection of ideas
+- Read the CAN messages from an external SD card (thus support for different dashboards without having to compile the code)
+- single step mode (possibly forwards and backwards) via an additional button
+
+## Known issues
+- can message for lightbulbs symbol is missing ![](./pics/missingBulbInd.png)
+
 ## Further infos & links
 - If your search for further information, tips & tricks on how to rapair your Renault Scenic II dashboard - take a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
