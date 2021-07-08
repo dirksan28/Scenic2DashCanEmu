@@ -96,7 +96,7 @@ The code was tested on a V5.14 dashbord and runs fine.
 - single step mode (possibly forwards and backwards) via an additional button
 
 ## Known issues
-- can message for lightbulbs symbol is missing ![](./pics/missingBulbInd.png)
+- CAN message to activate the lightbulb symbol is currently unknown  ![](./pics/missingBulbInd.png)
 
 ## Further infos & links
 - If your search for further information, tips & tricks on how to rapair your Renault Scenic II dashboard - take a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
