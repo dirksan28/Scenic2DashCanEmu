@@ -88,12 +88,13 @@ The code was tested on a V5.14 dashbord and runs fine.
 ## Design principles
 - keep it stupid simple
 - even "non-arduino experts" should be able to use and set up the project easily
-- keep dependencies as low as possible (e.g. libraries, source files, additional hardware, ...)
+- keep dependencies as few as possible (e.g. libraries, source files, additional hardware, ...)
 - adaptable and expandable even without knowledge of C / C ++
 
 ## Collection of ideas
 - Read the CAN messages from an external SD card (thus support for different dashboards without having to compile the code)
 - single step mode (possibly forwards and backwards) via an additional button
+- PCB layout for a self containing, single solution board
 
 ## Known issues
 - CAN message to activate the lightbulb symbol is currently unknown  ![](./pics/missingBulbInd.png)
