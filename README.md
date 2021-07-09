@@ -94,7 +94,7 @@ The code was tested on a V5.14 dashbord and runs fine.
 ## Collection of ideas
 - Read the CAN messages from an external SD card (thus support for different dashboards without having to compile the code)
 - single step mode (possibly forwards and backwards) via an additional button
-- PCB layout for a self containing, single solution board
+- PCB layout for a self containing, single board solution
 
 ## Known issues
 - CAN message to activate the lightbulb symbol is currently unknown  ![](./pics/missingBulbInd.png)
