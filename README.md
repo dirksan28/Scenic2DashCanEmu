@@ -101,3 +101,4 @@ The code was tested on a V5.14 dashbord and runs fine.
 
 ## Further infos & links
 - If you search for further information, **tips & tricks on how to rapair your Renault Scenic II dashboard** - take a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
+- One of the most comprehensive dashboard repair video (unfortunately in french - but the subtitle function should do the trick) https://www.youtube.com/watch?v=UUcnZQbhVvc
