@@ -8,7 +8,7 @@
 - build to test your cluster after and during repair
 \
 \
-[![Little red riding hood](./pics/vidThumb.jpg)](https://vimeo.com/568058419 "CAN bus - Emulator in action - Click to Watch!")
+[![](./pics/RenaultScenic2CAN-BusEmulatorDIYonGitHub-low.gif)](https://vimeo.com/568058419 "CAN bus - Emulator in action - Click to watch on Vimeo!")
 
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
