@@ -44,7 +44,10 @@ To work properly, make sure it is closed so the CAN bus termination is enabled.
 |29|CAN LOW|
 |30|CAN HI|
 
-Hint: The dash takes about 4-5 amps peak current (filament heating, caps) when it starts up. Make sure your power supply and cabling is sufficient.
+#### Hint 
+The dash takes about 4-5 amps peak current (filament heating, caps) when it starts up.
+Especially when using small current limiting lab power supplies this may become a thing.
+Make sure your power supply and cabling is sufficient.
 
 ## Software
 The arduino project can be compiled and uploaded via the Arduino IDE. Either clone this project or download it as a [ZIP-File](https://github.com/dirksan28/Scenic2DashCanEmu/archive/refs/heads/main.zip).
