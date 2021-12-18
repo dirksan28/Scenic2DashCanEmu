@@ -85,6 +85,14 @@ const struct msgStruct messages[] PROGMEM = { //load into flash-memory (sram was
 ```
 To see what the code is doing. Start the serial console of the Arduino IDE at 9600 Boud.
 
+#### Hint
+If you remove line #4
+```
+#define ENABLE_CANBUS
+```
+output to the MCP2515 breakout board will be skipped.
+By doing so the code runs fine within the free [WOKI Online Arduino Simulator](https://wokwi.com/arduino/new?template=arduino-uno) wich make it easier for debug purposes.
+
 ## Current state
 The code was tested on a V5.14 dashbord and runs fine.
 
