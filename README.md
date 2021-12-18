@@ -1,16 +1,17 @@
 # A lowcost DIY CAN BUS emulator for the Renault Scenic 2 dashboard
 
 ## Features
+- build to test your Renault Scenic 2 dashboard after and during repair
 - powers up your dashboard without the need of installation in the car
 - large test sequence. Shows saved km/milage on startup. (see video) 
-- standalone operation (only with charging adapter) possible
 - if connected to a serial console: timestamp and message logging on screen
-- build to test your cluster after and during repair
-\
+- standalone operation (only with charging adapter) possible
+
 \
 [![](./pics/RenaultScenic2CAN-BusEmulatorDIYonGitHub-low.gif)](https://vimeo.com/568058419 "CAN bus - Emulator in action - Click to watch on Vimeo!")
 
 click to watch the full vid on Vimeo
+
 
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
