@@ -1,4 +1,4 @@
-# A lowcost DIY CAN BUS emulator for the Renault Scenic 2 dashboard
+# A lowcost DIY CAN bus emulator for the Renault Scenic 2 dashboard
 
 ## Features
 - build to test your Renault Scenic 2 dashboard after and during repair
@@ -94,7 +94,7 @@ If you remove line #4
 #define ENABLE_CANBUS
 ```
 output to the MCP2515 breakout board will be skipped.
-By doing so the code runs fine within the free [WOKI Online Arduino Simulator](https://wokwi.com/arduino/new?template=arduino-uno) wich makes it easier for code debugging purposes.
+By doing so the code runs fine within the free [WOKI Online Arduino Simulator](https://wokwi.com/arduino/new?template=arduino-uno) wich makes it easier for debugging purposes.
 
 ## Current state
 The code was tested on a V5.14 dashbord and runs fine.
