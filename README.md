@@ -10,7 +10,7 @@
 \
 [![](./pics/RenaultScenic2CAN-BusEmulatorDIYonGitHub-low.gif)](https://vimeo.com/568058419 "CAN bus - Emulator in action - Click to watch on Vimeo!")
 
-click to watch the full vid on Vimeo
+[click to watch the full vid on Vimeo](https://vimeo.com/568058419)
 
 
 ## What you need
