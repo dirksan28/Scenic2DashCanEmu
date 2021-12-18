@@ -10,6 +10,8 @@
 \
 [![](./pics/RenaultScenic2CAN-BusEmulatorDIYonGitHub-low.gif)](https://vimeo.com/568058419 "CAN bus - Emulator in action - Click to watch on Vimeo!")
 
+click to watch the full vid on Vimeo
+
 ## What you need
 - an Arduino (Uno) a cheap clone also works ;-)
 - a MCP2515 module (e.g. https://www.amazon.com/s?k=MCP2515)
