@@ -1,4 +1,4 @@
-# A lowcost DIY CAN bus emulator for the Renault Scenic 2 dashboard
+# A lowcost DIY CAN bus emulator for Renault Scenic 2 dashboard repair
 
 ## Features
 - build to test your Renault Scenic 2 dashboard after and during repair
