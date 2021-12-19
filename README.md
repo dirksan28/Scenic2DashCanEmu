@@ -19,12 +19,11 @@
 - The Arduino IDE https://www.arduino.cc/en/software to compile and upload the sketch to the arduino. 
 
 ## Hardware
-![](./pics/mcp2515-arduino.jpg)
-
-On the MCP2515 board there is a jumper which is labeled J1.
-To work properly, make sure it is closed so the CAN bus termination is enabled.
+![](./pics/wireing.jpg)
 
 ### Wireing
+#### Arduino <-> MCP2515
+![](./pics/mcp2515-arduino.jpg)
 | PIN on Arduino  | PIN on MCP2515 CAN Bus Breakout Board  |
 | ------------ | ------------ |
 |D2|INT|
@@ -35,8 +34,10 @@ To work properly, make sure it is closed so the CAN bus termination is enabled.
 |5V |VCC|
 |GND|GND|
 
-![](./pics/wireing.jpg)
+On the MCP2515 board there is a jumper which is labeled J1.
+To work properly, make sure it is closed so the CAN bus termination is enabled.
 
+#### The dashboard
 |PIN# (grey connector on dash)| meaning|
 | ------------ | ------------ |
 |1|+12V|
@@ -44,7 +45,7 @@ To work properly, make sure it is closed so the CAN bus termination is enabled.
 |29|CAN LOW|
 |30|CAN HI|
 
-#### Hint 
+##### Hint 
 The dash takes about 4-5 amps peak current (filament heating, caps) when it starts up.
 Especially when using small current limiting lab power supplies this may become a thing.
 Make sure your power supply and cabling is sufficient.
