@@ -117,8 +117,8 @@ The code was tested on a V5.14 dashbord and runs fine.
 
 ## Further infos & links
 - If you search for further information, **tips & tricks on how to rapair your Renault Scenic II dashboard** - take a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
-- Radovan Petković Raša shows here the systematic troubleshooting and successful repair of a Scenic II dashboard with lots of tips and great advice. The best video on this topic that can be found online. If you don't speak Serbian, just turn on automatic subtitle translation. https://www.youtube.com/watch?v=_f3Z28OoKZQ
-- A very good video, which also shows how to remove the large display for better working (unfortunately in french - but the subtitle function should do the trick) https://www.youtube.com/watch?v=UUcnZQbhVvc
+- Radovan Petković Raša shows here the **systematic troubleshooting and successful repair** of a Scenic II dashboard with lots of tips and great advice. **The best video** on this topic that can be found **online**. If you don't speak Serbian, just turn on automatic subtitle translation. https://www.youtube.com/watch?v=_f3Z28OoKZQ Thank you for the time and effort you put into this!
+- A good repair video, which also shows **how to desolder the large display properly** (unfortunately in french - but the subtitle function should do the trick) https://www.youtube.com/watch?v=UUcnZQbhVvc
 
 ### Forks and Variants
 - Thanks to the great work of David Douard there is now also a fork based on **ESP32 + SN65HVD230** as CAN transceiver available. Check https://github.com/douardda/Scenic2DashCanEmu for details.
