@@ -113,12 +113,25 @@ The code was tested on a V5.14 dashbord and runs fine.
 - PCB layout for a self containing, single board solution
 
 ## Known issues
-- CAN message to activate the lightbulb symbol is currently unknown  ![](./pics/missingBulbInd.png)
+- CAN message to activate the lightbulb symbol is currently unknown
+  <br><img title="click to enlarge" src="./pics/missingBulbInd.png" width=40% height=40%>
 
 ## Further infos & links
+### Resources
 - If you search for further information, **tips & tricks on how to rapair your Renault Scenic II dashboard** - take a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
 - Radovan Petković Raša shows here the **systematic troubleshooting and successful repair** of a Scenic II dashboard with lots of tips and great advice. **The best video** on this topic that can be found **online**. If you don't speak Serbian, just turn on automatic subtitle translation. https://www.youtube.com/watch?v=_f3Z28OoKZQ  - Thank you for the time and effort you put into this. Great work!
 - A good repair video, which also shows **how to desolder the large display properly** (unfortunately in french - but the subtitle function should do the trick) https://www.youtube.com/watch?v=UUcnZQbhVvc
+
+### Powerup partly without any can emulator
+For an initial test on your desk, you can partially switch on the dashboard (only the small clock display) even without a Canbus emulator.
+<br> Therefor connect the **gray connector** to your power supply as usual:
+- Pin1 +12V
+- Pin2 GND 
+
+And on the **red connector**
+- Pin1 via a 1kΩ resistor to +12V
+<img title="click to enlarge" src="./pics/Scenic2CheckClockDisp.png" width=20% height=20%>
+This simulates the same situation as turning on your radio in the car and therefore results in the clock display turning on.
 
 ### Forks and Variants
 - Thanks to the great work of David Douard there is now also a fork based on **ESP32 + SN65HVD230** as CAN transceiver available. Check https://github.com/douardda/Scenic2DashCanEmu for details.
