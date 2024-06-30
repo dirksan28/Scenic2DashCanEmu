@@ -22,7 +22,7 @@
 ## Hardware
 ![](./pics/wireing.jpg)
 
-### Wireing
+### Wiring
 #### Arduino <-> MCP2515
 ![](./pics/mcp2515-arduino.jpg)
 | PIN on Arduino  | PIN on MCP2515 CAN Bus Breakout Board  |
@@ -50,18 +50,19 @@ To work properly, make sure it is closed so the CAN bus termination is enabled.
 The dash takes about 4-5 amps peak current (filament heating, caps) when it starts up.
 Especially when using small current limiting lab power supplies this may become a thing.
 Make sure your power supply and cabling is sufficient.
+Should your power supply not provide enough current, the program might run, but the dashboard will remain dark.
 
 ## Software
 The arduino project can be compiled and uploaded via the Arduino IDE. Either clone this project or download it as a [ZIP-File](https://github.com/dirksan28/Scenic2DashCanEmu/archive/refs/heads/main.zip).
 The code which runs on the arduino is based on [MCP_CAN_lib](https://github.com/coryjfowler/MCP_CAN_lib).
-For convenience a copy of this library also is part of this project. Just put the can-library into the library folder of your Arduino IDE (on linux: ~/Arduino/libraries).
+For convenience a copy of this library also is part of this project. Just put the entire can-library folder (MCP_CAN_lib-master) into the library folder of your Arduino IDE (on linux: ~/Arduino/libraries), (on MAC-OS: /Users/YOUR-USER-NAME/Arduino/libraries/) .
 
 The Message-Sequence can be extended or modified by patching the following code fragments within the [canEmu.ino](./Arduino/canEmulator/canEmulator.ino "link to canEmu.ino") file:
 
 ### Code
 ```c
 /**
- * the following stuct contains the messages which are send to the dash
+ * the following struct contains the messages which are send to the dashboard
  * for initialization
  * feel free to add or remove messages.
  * {duration, id, dlc {byte1, byte2, ... byte_dlc}}
@@ -73,7 +74,7 @@ const struct msgStruct initMessages[] PROGMEM = {
 };
 
 /**
- * the following stuct contains the messages which are send to the dash
+ * the following struct contains the messages which are send to the dash
  * within a loop
  * feel free to add or remove messages.
  * {duration, id, dlc {byte1, byte2, ... byte_dlc}}
@@ -124,7 +125,7 @@ The code was tested on a V5.14 dashbord and runs fine.
 
 ### How to powerup without any CAN-bus emulator
 For an initial test on your desk, you can partially switch on the dashboard (only the small clock display) even without a CAN-bus emulator.
-<br> Therefor connect the **gray connector** to your power supply as usual:
+<br> Therefore connect the **gray connector** to your power supply as usual:
 - Pin1 +12V
 - Pin2 GND 
 

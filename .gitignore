@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# MAC OS
+/.DS_Store
+
+# Eclipse.org project, a IDE for Java developers
+/.project
