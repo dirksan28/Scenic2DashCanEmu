@@ -1,5 +1,4 @@
 #define SPI_CS_PIN 10
-#define CAN_INT_PIN 2
 #define SERIAL_SPEED 9600 //boud rate for arduino serial console debug output
 #define ENABLE_CANBUS //comment out to avoid usage of mcp-board (for testing)
 #define SPEEDUP 500 //the smaler, the faster (default is 1000)
