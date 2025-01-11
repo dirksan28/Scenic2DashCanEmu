@@ -123,9 +123,10 @@ For an initial test on your desk, you can partially switch on the dashboard (onl
 - Pin1 +12V
 - Pin2 GND 
 
-And on the **[red connector](./pics/Scenic2SteeringWheelRadioRemote.pdf)** 
+And on the **[red connector](./pics/Scenic2SteeringWheelRadioRemote.pdf)**
 - Pin1 via a 1kΩ resistor to +12V
-<img title="click to enlarge" src="./pics/Scenic2CheckClockdisplay.png" width=20% height=20%>
+<img title="click to enlarge" src="./pics/Scenic2CheckClockDisp.png" width=20% height=20%>
+
 This simulates turning on your radio in the car, resulting in the clock display turning on.
 
 ### Forks and Variants
