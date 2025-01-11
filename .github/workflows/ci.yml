@@ -1,0 +1,37 @@
+name: Build and Verify Arduino Code
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Arduino CLI
+        uses: arduino/setup-arduino-cli@v1
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr
+          arduino-cli lib install "mcp_can"
+
+      - name: Compile Sketch
+        run: |
+          arduino-cli compile --fqbn arduino:avr:uno Arduino/canEmulator/canEmulator.ino
+
+      - name: Verify Sketch
+        run: |
+          arduino-cli compile --fqbn arduino:avr:uno --verify Arduino/canEmulator/canEmulator.ino
