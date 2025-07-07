@@ -20,7 +20,7 @@
 - The Arduino IDE to compile and upload the sketch to the Arduino (https://www.arduino.cc/en/software)
 
 ## Hardware
-<img title="click to enlarge" src="./pics/wireing.jpg" width=50% height=50%>
+<img title="click to enlarge" src="./pics/wireing.jpg" width=50%>
 
 ### Wiring
 #### Arduino <-> MCP2515
@@ -109,7 +109,7 @@ The code was tested on a V5.14 dashboard and runs fine.
 
 ## Known issues
 - The CAN message to activate the lightbulb symbol is currently unknown.
-  <br><img title="click to enlarge" src="./pics/missingBulbInd.png" width=40% height=40%>
+  <br><img title="click to enlarge" src="./pics/missingBulbInd.png" width=40%>
 
 ## Further infos & links
 ### Resources
@@ -125,7 +125,7 @@ For an initial test on your desk, you can partially switch on the dashboard (onl
 
 And on the **[red connector](./pics/Scenic2SteeringWheelRadioRemote.pdf)**
 - Pin1 via a 1kΩ resistor to +12V
-<img title="click to enlarge" src="./pics/Scenic2CheckClockDisp.png" width=20% height=20%>
+<img title="click to enlarge" src="./pics/Scenic2CheckClockDisp.png" width=20%>
 
 This simulates turning on your radio in the car, resulting in the clock display turning on.
 
