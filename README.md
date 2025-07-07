@@ -26,7 +26,8 @@
 
 ### Wiring
 #### Arduino <-> MCP2515
-![](./pics/mcp2515-arduino.jpg)
+<img title="click to enlarge" src="./pics/mcp2515-arduino.jpg" width=50%>
+
 | PIN on Arduino  | PIN on MCP2515 CAN Bus Breakout Board  |
 | ------------ | ------------ |
 |D2|INT|
@@ -128,7 +129,7 @@ Connect the **gray connector** to your power supply as usual:
 - Pin1 +12V
 - Pin2 GND 
 
-And on the **[red connector](./pics/Scenic2SteeringWheelRadioRemote.pdf)**
+And on the **[red connector](./pics/Scenic2SteeringWheelRadioRemote.pdf "Schematic and usage of the red connector for the radio and steering wheel remote.")**
 - Pin1 via a 1kΩ resistor to +12V
 <img title="click to enlarge" src="./pics/Scenic2CheckClockDisp.png" width=20%>
 
