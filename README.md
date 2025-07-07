@@ -20,7 +20,7 @@
 - The Arduino IDE to compile and upload the sketch to the Arduino (https://www.arduino.cc/en/software)
 
 ## Hardware
-![](./pics/wiring.jpg)
+![](./pics/wireing.jpg)
 
 ### Wiring
 #### Arduino <-> MCP2515
