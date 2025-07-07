@@ -1,3 +1,5 @@
+![Build Status](https://github.com/dirksan28/Scenic2DashCanEmu/actions/workflows/ci.yml/badge.svg)
+
 # A low-cost DIY CAN bus emulator for Renault Scenic 2 dashboard repair
 *My personal contribution to the right to repair initiative.*
 
@@ -45,10 +47,10 @@ On the MCP2515 board, ensure the jumper labeled J1 is closed to enable CAN bus t
 |29|CAN LOW|
 |30|CAN HI|
 
-##### Hint 
-Ensure your power supply and cabling can handle 4-5 amps peak current (filament heating, capacitors) at startup.
-Especially when using small current limiting lab power supplies this may become a thing.
-Should your power supply not provide enough current, the program might run, but the dashboard will remain dark.
+> [!IMPORTANT]
+>Ensure your power supply and cabling can handle 4-5 amps peak current (filament heating, capacitors) at startup.
+>Especially when using small current limiting lab power supplies this may become a thing.
+>Should your power supply not provide enough current, the program might run, but the dashboard will remain dark.
 
 ## Software
 The Arduino project can be compiled and uploaded via the Arduino IDE. Either clone this project or download it as a [ZIP-File](https://github.com/dirksan28/Scenic2DashCanEmu/archive/refs/heads/main.zip).
@@ -87,11 +89,12 @@ const struct msgStruct messages[] PROGMEM = { //load into flash-memory (sram was
   ...
   };
 ```
-To see what the code is doing, start the serial console of the Arduino IDE at 9600 baud.
+> [!NOTE]
+>To see what the code is doing, start the serial console of the Arduino IDE at 9600 baud.
 
-#### Hint
-If you remove line #4 (`#define ENABLE_CANBUS`), output to the MCP2515 breakout board will be skipped.
-By doing so, the code runs fine within the famous and free [WOKI Online Arduino Simulator](https://wokwi.com/arduino/new?template=arduino-uno), making it easier for debugging purposes.
+> [!TIP]
+>If you remove line #4 (`#define ENABLE_CANBUS`), output to the MCP2515 breakout board will be skipped.
+>By doing so, the code runs fine within the famous and free [WOKI Online Arduino Simulator](https://wokwi.com/arduino/new?template=arduino-uno), making it easier for debugging purposes.
 
 ## Current state
 The code was tested on a V5.14 dashboard and runs fine.
@@ -117,9 +120,11 @@ The code was tested on a V5.14 dashboard and runs fine.
 - Radovan Petković Raša shows the **systematic troubleshooting and successful repair** of a Scenic II dashboard with lots of tips and great advice. **The best video** on this topic online.  If you don't speak Serbian, turn on automatic subtitle translation. https://www.youtube.com/watch?v=_f3Z28OoKZQ  - Thank you, Radovan for the time and effort you put into this. Great work!
 - A good repair video that also shows **how to desolder the large display properly** (unfortunately in French, but the subtitle function should help): https://www.youtube.com/watch?v=UUcnZQbhVvc
 
-### How to power up even without a CAN-bus emulator
-For an initial test on your desk, you can partially switch on the dashboard (only the small clock display) even without a CAN-bus emulator.
-<br> Connect the **gray connector** to your power supply as usual:
+### How to power up the dashboard even without a CAN-bus emulator
+>[!TIP]
+>For an initial test on your desk, you can partially switch on the dashboard (only the small clock display) even without a CAN-bus emulator.
+
+Connect the **gray connector** to your power supply as usual:
 - Pin1 +12V
 - Pin2 GND 
 
@@ -127,7 +132,7 @@ And on the **[red connector](./pics/Scenic2SteeringWheelRadioRemote.pdf)**
 - Pin1 via a 1kΩ resistor to +12V
 <img title="click to enlarge" src="./pics/Scenic2CheckClockDisp.png" width=20%>
 
-This simulates turning on your radio in the car, resulting in the clock display turning on.
+This simulates turning on your car's radio, which causes the clock display to turn on.
 
 ### Forks and Variants
 - Thanks to David Douard, there is now a fork based on **ESP32 + SN65HVD230 as CAN transceiver** available. Check https://github.com/douardda/Scenic2DashCanEmu for details.
