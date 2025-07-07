@@ -59,8 +59,6 @@ The code running on the Arduino is based on [MCP_CAN_lib](https://github.com/cor
 For convenience, a copy of this library is part of this project. Just place the entire can-library folder (MCP_CAN_lib-master) into the library folder of your Arduino IDE (on linux: ~/Arduino/libraries), (on MAC-OS: /Users/YOUR-USER-NAME/Arduino/libraries/) .
 
 The message sequence can be extended or modified by editing the following code fragments within the [canEmu.ino](./Arduino/canEmulator/canEmulator.ino "link to canEmu.ino") file:
-
-### Code
 ```c
 /**
  * the following struct contains the messages which are send to the dashboard
