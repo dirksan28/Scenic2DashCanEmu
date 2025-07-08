@@ -1,14 +1,19 @@
 ![Build Status](https://github.com/dirksan28/Scenic2DashCanEmu/actions/workflows/ci.yml/badge.svg)
 
 # A low-cost DIY CAN bus emulator for Renault Scenic 2 dashboard repair
-*My personal contribution to the right to repair initiative.*
+
+  *My personal contribution to the right to repair initiative.*
+<BR><BR>
+
+## Subject
+These dashboards have a tendency to fail at least once over the vehicle’s lifespan. For repair purposes, a method is required to power and operate them on a workbench. The DIY CAN bus emulator introduced here serves this purpose.
 
 ## Features
-- Build to test your Renault Scenic 2 dashboard during and after repair
-- Powers up your dashboard without the need for installation in the car
-- Large test sequence that shows saved km/mileage on startup (see video) 
-- If connected to a serial console, timestamp and message logging on screen
-- Supports standalone operation with a charging adapter
+- Designed to test your Renault Scénic II dashboard during and after repair
+- Powers up the dashboard without requiring installation in the vehicle
+- Includes an extended test sequence that displays the stored mileage at startup (see video)
+- Outputs timestamped messages to a serial console when connected
+- Supports standalone operation using a standard charging adapter
 
 \
 [![](./pics/RenaultScenic2CAN-BusEmulatorDIYonGitHub-low.gif)](https://vimeo.com/568058419 "CAN bus - Emulator in action - Click to watch on Vimeo!")
@@ -39,7 +44,7 @@
 |GND|GND|
 
 On the MCP2515 board, ensure the jumper labeled J1 is closed to enable CAN bus termination.
-
+<BR>
 #### The dashboard
 |PIN# (grey connector on dash)| meaning|
 | ------------ | ------------ |
@@ -115,7 +120,7 @@ The code was tested on a V5.14 dashboard and runs fine.
 
 ## Further infos & links
 ### Resources
-- If you are looking for further information, **tips & tricks on how to repair your Renault Scenic II dashboard**, check a look at https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
+- If you are looking for further information, **tips & tricks on how to repair your Renault Scenic II dashboard**, check out https://www.digital-kaos.co.uk/forums/showthread.php/59335-repair-dashboard-scenic-2
 - Radovan Petković Raša shows the **systematic troubleshooting and successful repair** of a Scenic II dashboard with lots of tips and great advice. **The best video** on this topic online.  If you don't speak Serbian, turn on automatic subtitle translation. https://www.youtube.com/watch?v=_f3Z28OoKZQ  - Thank you, Radovan for the time and effort you put into this. Great work!
 - A good repair video that also shows **how to desolder the large display properly** (unfortunately in French, but the subtitle function should help): https://www.youtube.com/watch?v=UUcnZQbhVvc
 
