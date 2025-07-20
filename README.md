@@ -11,7 +11,7 @@ These dashboards have a tendency to fail at least once over the vehicle’s life
 ## Features
 - Designed to test your Renault Scénic II dashboard during and after repair
 - Powers up the dashboard without requiring installation in the vehicle
-- Includes an extended test sequence that displays the stored mileage at startup (see video)
+- Includes an extended test sequence that even displays the stored mileage at startup (see video)
 - Outputs timestamped messages to a serial console when connected
 - Supports standalone operation using a standard charging adapter
 
@@ -132,7 +132,7 @@ Connect the **gray connector** to your power supply as usual:
 - Pin1 +12V
 - Pin2 GND 
 
-And on the **[red connector](./pics/Scenic2SteeringWheelRadioRemote.pdf "Schematic and usage of the red connector for the radio and steering wheel remote.")**
+And on the **[red connector](./pics/Scenic2SteeringWheelRadioRemote.pdf "Schematic and usage of the red connector for the radio and steering wheel remote.")** (Check this link for connector pinout & schematic of the steering wheel remote and its sense circuit)
 - Pin1 via a 1kΩ resistor to +12V
 <img title="click to enlarge" src="./pics/Scenic2CheckClockDisp.png" width=20%>
 
